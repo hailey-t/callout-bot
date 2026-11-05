@@ -1,0 +1,41 @@
+# Credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Employee and mentor records
+employees.json
+mentors.json
+*.json.bak
+
+# Schedule workbooks
+*.xlsx
+*.xlsm
+
+# Database and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+backups/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing files
+test_*
